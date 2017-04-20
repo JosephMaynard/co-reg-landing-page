@@ -2,12 +2,14 @@
   "name": "co-reg-landing-page",
   "version": "0.1.0",
   "private": true,
-   "homepage" : "https://creative.mobileembrace.com/test/co-reg-landing-page",
+  "homepage": "https://creative.mobileembrace.com/test/co-reg-landing-page",
   "dependencies": {
     "inferno": "^3.0.5",
     "inferno-component": "^3.0.5"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
     "inferno-devtools": "^3.0.5",
     "inferno-scripts": "3.0.0"
   },
