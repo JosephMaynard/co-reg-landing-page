@@ -1,0 +1,11 @@
+.Title {
+    color: #FFF;
+}
+.Title h1 {
+    font-size: 4em;
+    font-weight: 600;
+}
+.Title h2 {
+    font-size: 2em;
+    font-weight: 100;
+}
