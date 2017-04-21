@@ -13,10 +13,14 @@ class App extends Component {
                     <Logo
                         style={{fill: '#fff'}}
                     />
-                    <Title
-                        title='CLAIM MAKEUP SAMPLES!'
-                        subtitle='Claim Makeup and Product Samples from Sephora!'
-                    />
+                    <div className="Main-inner">
+                        <div className="Form">
+                            <Title
+                                title='CLAIM MAKEUP SAMPLES!'
+                                subtitle='Claim Makeup and Product Samples from Sephora!'
+                            />
+                        </div>
+                    </div>
                 </div>
                 <HowItWorks />
             </div>

@@ -11,11 +11,11 @@ const HowItWorks = () => {
                 </div>
                 <div className="HowItWorks-group">
                     <div className="HowItWorks-icon"></div>
-                    <p>Fast &amp; Easy Registration<br/>It's 100% Free.</p>
+                    <p>Complete Paid Surveys<br/>&amp; Offers Online.</p>
                 </div>
                 <div className="HowItWorks-group">
                     <div className="HowItWorks-icon"></div>
-                    <p>Fast &amp; Easy Registration<br/>It's 100% Free.</p>
+                    <p>Earn Points &amp; Entries<br/>for Gift Vouchers.</p>
                 </div>
             </div>
         </div>
