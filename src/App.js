@@ -1,6 +1,7 @@
 import { version } from 'inferno';
 import Component from 'inferno-component';
 import Logo from './components/logo';
+import HowItWorks from './components/HowItWorks';
 import Title from './components/Title';
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
                         subtitle='Claim Makeup and Product Samples from Sephora!'
                     />
                 </div>
+                <HowItWorks />
             </div>
         );
     }

@@ -6,4 +6,18 @@
     width: 100%;
     min-height: 100%;
     position: relative;
+    background: #c635ba;
+    background: url(/img/hex-dots.png), -moz-linear-gradient(-45deg, #c635ba 15%, #282dc9 85%);
+    background: url(/img/hex-dots.png), -webkit-linear-gradient(-45deg, #c635ba 15%,#282dc9 85%);
+    background: url(/img/hex-dots.png), linear-gradient(135deg, #c635ba 15%,#282dc9 85%);
+    filter: url(/img/hex-dots.png), progid:DXImageTransform.Microsoft.gradient( startColorstr='#c635ba', endColorstr='#282dc9',GradientType=1 ); 
+    background-size: 32px 55px, auto;
+    box-shadow: inset 0 0 24em 4em rgba(0,0,0,0.9);
+}
+
+.Logo {
+    width: 4em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
 }
