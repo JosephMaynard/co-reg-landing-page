@@ -60,3 +60,80 @@ img {
     width: 100%;
     height: 100%;
 }
+
+.HowItWorks {
+    background: #14161a;
+    width: 100%;
+    padding: 3em 1em 3em;
+    color: #FFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.HowItWorks h3 {
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+
+.HowItWorks-inner {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.HowItWorks-group {
+    width: 30%;
+    min-width: 8em;
+    padding-bottom: 2em;
+}
+
+.HowItWorks-icon {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    position: relative;
+    border: 0.3em solid #e73359;
+    box-sizing: border-box;
+}
+
+.HowItWorks-svg {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+
+}
+
+.HowItWorks-svg-fill {
+    fill: #e73359;
+}
+
+.Benefits {
+    width: 100%;
+    padding: 2em 1em;
+    color: #FFF;
+    background: #111;
+    box-sizing: border-box;
+}
+
+.Benefits h3 {
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    text-align: center;
+}
+
+.Benefits-inner {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+}

@@ -1,11 +1,22 @@
 import Component from 'inferno-component';
 import Logo from './components/logo';
-import HowItWorks from './components/HowItWorks';
-import Benefits from './components/Benefits';
 import Title from './components/Title';
+import { getUrlParameters, uniqueID, preloadImages, getAge } from './helpers';
 import './App.css';
 
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            heroImageLoaded: false,
+            collectedData: {
+                sessionID: uniqueID(),
+                parameters: getUrlParameters(),
+            },
+        };
+    }
+
     render() {
         return (
             <div className="App">
@@ -22,8 +33,6 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
-                <HowItWorks />
-                <Benefits />
             </div>
         );
     }
