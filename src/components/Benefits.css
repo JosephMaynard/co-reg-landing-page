@@ -1,0 +1,20 @@
+.Benefits {
+    width: 100%;
+    padding: 2em 1em;
+    color: #FFF;
+    background: #111;
+    box-sizing: border-box;
+}
+
+.Benefits h3 {
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    text-align: center;
+}
+
+.Benefits-inner {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+}

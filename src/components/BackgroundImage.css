@@ -1,0 +1,57 @@
+.BackgroundImageContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.BackgroundImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF url(https://creative.mobileembrace.com/test/co-reg-path/img/bkg.jpg) 50% 50%;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.BackgroundImageBlurred {
+    filter: blur(8px);
+    transform: scale(1.2);
+    animation: BlurAnimation 4s ease-out;
+}
+
+@-webkit-keyframes BlurAnimation {
+    from { 
+        filter: blur(0px);
+        transform: scale(1.1);
+    }
+    to { 
+        filter: blur(8px);
+        transform: scale(1.2); 
+    }
+}
+@-moz-keyframes BlurAnimation {
+    from { 
+        filter: blur(0px);
+        transform: scale(1.1);
+    }
+    to { 
+        filter: blur(8px);
+        transform: scale(1.2); 
+    }
+}
+@keyframes BlurAnimation {
+    from { 
+        filter: blur(0px);
+        transform: scale(1.1);
+    }
+    to { 
+        filter: blur(8px);
+        transform: scale(1.2); 
+    }
+}

@@ -1,7 +1,7 @@
 .HowItWorks {
     background: #14161a;
     width: 100%;
-    padding: 2em 1em;
+    padding: 3em 1em 3em;
     color: #FFF;
     text-align: center;
     box-sizing: border-box;
@@ -21,10 +21,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: top;
+    flex-wrap: wrap;
 }
 
 .HowItWorks-group {
     width: 30%;
+    min-width: 8em;
+    padding-bottom: 2em;
 }
 
 .HowItWorks-icon {
@@ -32,5 +35,21 @@
     height: 8em;
     border-radius: 50%;
     margin: 0 auto 30px;
-    background: #fff;
+    position: relative;
+    border: 0.3em solid #e73359;
+    box-sizing: border-box;
+}
+
+.HowItWorks-svg {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+
+}
+
+.HowItWorks-svg-fill {
+    fill: #e73359;
 }

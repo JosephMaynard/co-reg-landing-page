@@ -1,7 +1,7 @@
-import { version } from 'inferno';
 import Component from 'inferno-component';
 import Logo from './components/logo';
 import HowItWorks from './components/HowItWorks';
+import Benefits from './components/Benefits';
 import Title from './components/Title';
 import './App.css';
 
@@ -23,6 +23,7 @@ class App extends Component {
                     </div>
                 </div>
                 <HowItWorks />
+                <Benefits />
             </div>
         );
     }
